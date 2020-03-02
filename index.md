@@ -1,159 +1,37 @@
-!DoCTypE html>
-<html>
-  <head>
-    <title>
-      Assignment #4 by Israel Hurtado
-    </title>
-    <style>
-    table{
-        width: 70%;
-        border-collapse: collapse;
-      }
-    th, td {
-    border: 1px solid black;
-    text-align: left;
-    padding: 5px;
-      }
-      tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-    * {
-  font-family: serif;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
-h1, h2 {
-	margin: 1em 0 0 0;
-	text-align: left;
-}
-h2 {
-	margin: 0 0 1em 0;
-}
-#container {
-    margin: 0 auto;
-    width: 50%;
-}
-#accordion input {
-	display: none;
-}
-#accordion label {
-	background: #eee;
-	border-radius: .25em;
-	cursor: pointer;
-	display: block;
-	margin-bottom: .125em;
-	padding: .25em 1em;
-	z-index: 20;
-}
-#accordion label:hover {
-	background: #ccc;
-}
-#accordion input:checked + label {
-	background: #ccc;
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
-	color: white;
-	margin-bottom: 0;
-}
-#accordion article {
-	background: #f7f7f7;
-	height:0px;
-	overflow:hidden;
-	z-index:10;
-}
+## Welcome to GitHub Pages
 
-#accordion article p {
-	padding: 1em;
-}
+You can use the [editor on GitHub](https://github.com/ihurtad4/Hurtado_Israel2020A/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-#accordion input:checked article {
-}
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-#accordion input:checked ~ article {
-	border-bottom-left-radius: .25em;
-	border-bottom-right-radius: .25em;
-	height: auto;
-	margin-bottom: .125em;
-}
-  p {
-  color: black;
-  font-size: 100%;
-}
+### Markdown
 
-</style>
-</head>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-<div>
-<body style="background-color:white;">
-    <h1 style="font-size:200%">Israel Hurtado's Resume</h1>
-      <img src="IMG_20190904_111440.jpg"alt="Israel Hurtado" width="320" height="400", align="right">
-      <p>Phone Number: <a href="https://duo.google.com/">555-555-5555</a></p>
-      <p>Address: <a href="https://www.google.com/maps">123 Mill Ave Apt.#3 Tempe, AZ</a></p>
-      <p>Email: <a href="https://gmail.com">ihurtad4@asu.edu</a></p>
-<div id="container">
-  <section id="accordion">
-    <div>
-      <input type="checkbox" id="check-1" />
-      <label for="check-1">Objectives</label>
-      <article>
-        <p>I was inspired by my sister who had graduated from ASU in 2012 to attend a univeristy
-          so I can pursuit to study in Digital Culture for the digital media industry,
-          and take any chances in working with
-          collegues and to create art in forms of digital.</p>
-        </article>
-      </div>
+```markdown
+Syntax highlighted code block
 
-      <div>
-        <input type="checkbox" id="check-2" />
-        <label for="check-2">Education</label>
-        <article>
-          <table style="width:50%">
-            <tr>
-              <th>School</th>
-              <th>Years Started</th>
-            </tr>
-            <tr>
-              <td>Bourgade Catholic High School</td>
-              <td>2014-2016</td>
-            </tr>
-            <tr>
-              <td>North Pointe Prep</td>
-              <td>2016-2018 (High School Diploma)</td>
-            </tr>
-            <tr>
-              <td>Arizona State Univeristy</td>
-              <td>2018-Present</td>
-            </tr>
-          </table>
-        </article>
-      </div>
-      <div>
-        <input type="checkbox" id="check-3" />
-        <label for="check-3">Experience</label>
-        <article>
-          <ol>
-            <li>Part-Time Crew Member: Raising Cane's: Mar 2018 - Feb 2019</li>
-            <ul>
-              <li>Made chicken fingers and fries in the kitchen</li>
-              <li>Prep for chicken, cane's sauce, and lemonade</li>
-              <li>Takes multiple roles such as washing dishes, clean kitchen, closing</li>
-            </ul>
-          </ol>
-        </article>
-      </div>
-      <div>
-        <input type="checkbox" id="check-4" />
-        <label for="check-4">References</label>
-        <article>
-          <ul>
-            <li>Obi-Wan Kenobi: <a href="https://duo.google.com/">Phone Number: 555-555-5656</a></li>
-            <li>Master Yoda: <a href="https://duo.google.com/">Phone Number: 665-566-5756</a></li>
-            <li>Luke Skywalker: <a href="https://duo.google.com/">Phone Number: 655-575-5676</a></li>
-          </ul>
-        </article>
-      </div>
-    </section>
-  </div>
-  </body>
-</div>
-</html>
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ihurtad4/Hurtado_Israel2020A/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
